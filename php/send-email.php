@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cargo_person = $_POST['q-cargo-person'];
     $phone = $_POST['q-phonenumber'];
 
-    $to = "johndoe@gmail.com"; // Email address
+    $to = "haiderali.47007@gmail.com"; // Email address
     $subject = "New Quote Request from " . $name;
     $message = "
     <html>
